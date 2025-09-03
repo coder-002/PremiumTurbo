@@ -6,8 +6,10 @@
     "declaration": true,
     "declarationMap": true,
     "outDir": "dist",
-    "emitDeclarationOnly": true
+    "emitDeclarationOnly": true,
+    "jsxImportSource": "react",
+    "types": ["react", "react-dom", "node"]
   },
-  "include": ["src"],
+  "include": ["src", "src/types"],
   "exclude": ["node_modules", "dist"]
 }
